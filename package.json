@@ -4,19 +4,23 @@
   "main": "src/server.js",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon",
-    "queue": "nodemon src/queue.js",
+    "start": "nodemon src/server.js",
+    "dev": "nodemon src/server.js",
     "fix": "yarn eslint --fix src --ext .js",
     "migrate": "yarn sequelize db:migrate"
   },
   "dependencies": {
+    "@babel/preset-env": "^7.8.7",
+    "babel-jest": "^25.1.0",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-async-errors": "^3.1.1",
     "helmet": "^3.21.3",
+    "jest": "^25.1.0",
     "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.5",
     "pg": "^7.18.2",
     "pg-hstore": "^2.3.3",
     "sequelize": "^5.21.5",
@@ -32,6 +36,7 @@
     "eslint-plugin-prettier": "^3.1.2",
     "nodemon": "^2.0.2",
     "prettier": "^1.19.1",
-    "sequelize-cli": "^5.5.1"
+    "sequelize-cli": "^5.5.1",
+    "ts-jest": "^25.2.1"
   }
 }
