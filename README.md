@@ -1,6 +1,13 @@
 #### Serasa Backend Node Test
 
-Desafio solicitado pela empresa Serasa para uma aplicação de vaga.
+Para atender melhor o desafio do Serasa, eu subi uma API em NodeJS para realizar o cadastro de usuários utilizando validações solicitadas por eles e integrei os erros diretamente no Front-end.
+
+Pra ficar mais dinâmico eu subi o backend no Heoroku e utilizei uma integração de postgres e sequelize diretamente na cli do Heroku.
+
+Ficaram disponíveis duas rotas POSTS, session responsável por verificar o login e a user cadastrar efetivamente e gerar o token de autenticação do usuário.
+
+https://serasa-backend-test.herokuapp.com/session
+https://serasa-backend-test.herokuapp.com/user
 
 ### Instruções:
 
