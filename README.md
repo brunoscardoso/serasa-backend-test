@@ -15,3 +15,6 @@ Para rodar local é necessário configurar as váriaveis do arquivo .env.example
 Depois que terminar a instalação é só rodar um dos comandos abaixo (necessário ter ambiente de desenvolvimento configurado):
 
 yarn start
+
+Print do Insominia realizando cadastro: 
+![signup](https://user-images.githubusercontent.com/47576846/77204046-ac056d00-6ad0-11ea-888c-2b803cb0e306.png)
