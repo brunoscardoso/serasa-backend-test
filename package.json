@@ -4,7 +4,7 @@
   "main": "src/server.js",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon src/server.js",
+    "start": "node -r esm src/server.js",
     "dev": "nodemon src/server.js",
     "fix": "yarn eslint --fix src --ext .js",
     "migrate": "yarn sequelize db:migrate"
@@ -15,6 +15,7 @@
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
     "express": "^4.17.1",
     "express-async-errors": "^3.1.1",
     "helmet": "^3.21.3",
